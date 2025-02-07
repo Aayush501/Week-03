@@ -1,6 +1,5 @@
-package org.example;
+package org.linearandbinarysearch.solutioncodes;
 
-import javax.print.CancelablePrintJob;
 import java.util.Scanner;
 
 public class ChallengeProblem {

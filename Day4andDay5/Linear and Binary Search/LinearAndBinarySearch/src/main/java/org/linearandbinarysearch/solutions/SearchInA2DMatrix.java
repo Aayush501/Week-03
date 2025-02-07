@@ -1,4 +1,4 @@
-package org.example;
+package org.linearandbinarysearch.solutions;
 
 import java.util.Scanner;
 

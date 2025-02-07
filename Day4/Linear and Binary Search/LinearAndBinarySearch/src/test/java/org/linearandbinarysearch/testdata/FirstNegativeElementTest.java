@@ -1,16 +1,16 @@
-import org.example.FirstNegativeNumber;
-import org.junit.jupiter.api.Test;
+package
 
-import java.time.LocalDate;
+import org.linearandbinarysearch.solutioncodes.FirstNegativeNumber;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // created class JunitTesting to test the code
-public class JunitTesting {
+class FirstNegativeElementTest {
 
     // created a test method which is going to be tested
     @Test
-    public void firstNegativeElement() {
+    void firstNegativeElement() {
         /*
          this method will be testing the method for finding the index of first negative element of the array
          the method will be tested with multiple test cases to ensure its accuracy
