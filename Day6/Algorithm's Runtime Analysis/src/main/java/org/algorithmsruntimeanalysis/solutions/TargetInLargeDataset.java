@@ -1,3 +1,4 @@
+package org.algorithmsruntimeanalysis.solutions;
 import java.util.ArrayList;
 
 // definition of TargetInLargeDataset class
@@ -17,9 +18,13 @@ public class TargetInLargeDataset {
         }
         long end = System.nanoTime(); // for checking the performance of linear search
 
-        System.out.println((check)? target + " is present in the array at index " + i + "." : target + " is not present in the array.");
+        // for this program
+        // System.out.println((check)? target + " is present in the array at index " + i + "." : target + " is not present in the array.");
+        // return "Linear Search Time: " + (end - start);
 
-        return "Linear Search Time: " + (end - start);
+        // for testing
+        System.out.println("Linear Search Time: " + (end - start));
+        return (check)? target + " is present in the array at index " + i + "." : target + " is not present in the array.";
     }
 
     public String binarySearch(ArrayList<Integer> arr, int target) {
@@ -49,9 +54,13 @@ public class TargetInLargeDataset {
         }
         long end = System.nanoTime(); // for checking the performance of linear search
 
-        System.out.println((check)? target + " is present in the array at index " + mid + "." : target + " is not present in the array.");
+        // for this program
+        // System.out.println((check)? target + " is present in the array at index " + mid + "." : target + " is not present in the array.");
+        // return "Binary Search Time: " + (end - start);
 
-        return "Binary Search Time: " + (end - start);
+        // for testing
+        System.out.println("Binary Search Time: " + (end - start));
+        return (check)? target + " is present in the array at index " + mid + "." : target + " is not present in the array.";
     }
 
     // main method
